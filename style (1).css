@@ -116,6 +116,11 @@ body {
     color: var(--branco-principal);
 }
 
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
 .rodape__lista {
     display: flex;
     justify-content: center;
@@ -123,7 +128,7 @@ body {
     margin-top: 1em;
 }
 
-.lista__link {
+.lista__link a {
     text-decoration: none;
     color: var(--cinza-secundario);
     margin-left: 1em;
@@ -135,19 +140,13 @@ body {
     margin: 1em 0;
 }
 
-.rodape {
-    text-align: center;
-    margin: 5em 3em;
-}
-
 .rodape__logo {
     margin-bottom: 3em;
 }
 
 .lista__link a:hover {
     color: var(--botao-azul);
-    
-}
 
+}
 
 
