@@ -140,5 +140,14 @@ body {
     margin: 5em 3em;
 }
 
+.rodape__logo {
+    margin-bottom: 3em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+    
+}
+
 
 
